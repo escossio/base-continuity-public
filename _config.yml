@@ -3,3 +3,6 @@ description: Cópia pública READ-ONLY — procedimentos e templates
 theme: jekyll-theme-cayman
 github:
   is_project_page: false
+
+# URLs sem extensão .html (ex.: /apache/add-vhost/)
+permalink: pretty
