@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Base de Continuidade — Público (read-only)
 
 Documentação e templates padronizados.  
