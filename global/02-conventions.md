@@ -1,3 +1,8 @@
+---
+layout: default
+title: 02 conventions
+permalink: /global/02-conventions/
+---
 # Convenções Operacionais (GLOBAL)
 
 Estas regras valem para todos os procedimentos da Base de Continuidade.

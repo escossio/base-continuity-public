@@ -1,3 +1,8 @@
+---
+layout: default
+title: Register service
+permalink: /services/register-service/
+---
 # Procedimento: Registro/Consulta de Serviços (CSV + systemd)
 
 Alvo: Debian2-1 (e futuras versões blindadas).

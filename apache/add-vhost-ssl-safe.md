@@ -1,3 +1,8 @@
+---
+layout: default
+title: Add vhost ssl safe
+permalink: /apache/add-vhost-ssl-safe/
+---
 # Procedimento: Criação de VirtualHost com HTTPS (ordem blindada)
 
 Alvo: Debian2-1 (e futuras versões blindadas).

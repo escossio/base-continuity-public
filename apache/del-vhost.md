@@ -1,3 +1,8 @@
+---
+layout: default
+title: Del vhost
+permalink: /apache/del-vhost/
+---
 # Procedimento: Remoção de VirtualHost (Apache) — determinístico
 
 Alvo: Debian2-1 (e futuras versões blindadas).

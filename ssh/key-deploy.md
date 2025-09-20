@@ -1,3 +1,8 @@
+---
+layout: default
+title: Key deploy
+permalink: /ssh/key-deploy/
+---
 # Procedimento: Deploy de Chaves SSH (Termux → Servidor)
 
 Alvo: Debian2-1 (e futuras versões blindadas).

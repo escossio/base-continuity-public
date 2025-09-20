@@ -1,3 +1,8 @@
+---
+layout: default
+title: Add vhost
+permalink: /apache/add-vhost/
+---
 # Procedimento: Criação de VirtualHost HTTP (padrão, anti-bomba)
 
 Alvo: Debian2-1 (e futuras versões blindadas).

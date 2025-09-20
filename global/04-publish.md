@@ -1,3 +1,8 @@
+---
+layout: default
+title: 04 publish
+permalink: /global/04-publish/
+---
 # Publicação da Base — GitHub Pages (read-only)
 
 Objetivo: publicar a Base de Continuidade em um repositório público **somente leitura**, para que novos chats consultem direto da fonte.

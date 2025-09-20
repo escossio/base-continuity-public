@@ -1,3 +1,8 @@
+---
+layout: default
+title: Coleta
+permalink: /inventory/coleta/
+---
 # Procedimento: Coleta de Inventário (SO/Serviços/Portas)
 
 Alvo: Debian2-1 (e futuras versões blindadas).

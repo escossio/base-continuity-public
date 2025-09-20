@@ -1,3 +1,8 @@
+---
+layout: default
+title: 01 checklist
+permalink: /global/01-checklist/
+---
 # Checklist de Verificação (GLOBAL)
 
 Alvo: Debian2-1 (e futuras versões blindadas).

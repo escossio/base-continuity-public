@@ -1,3 +1,8 @@
+---
+layout: default
+title: 03 firewall
+permalink: /global/03-firewall/
+---
 # Procedimento: Firewall (GLOBAL, nftables)
 
 Padrão oficial do Debian2-1.
