@@ -2,17 +2,17 @@ title: Base de Continuidade — Público (read-only)
 description: Cópia pública READ-ONLY — procedimentos e templates
 theme: jekyll-theme-cayman
 
-# Gera URLs sem .html (ex.: /global/01-checklist/)
+# URLs bonitas: /global/01-checklist/ (sem .html)
 permalink: pretty
 
-# Publica também arquivos “não-Markdown” usados como templates
-# (por segurança, também escondemos pastas de scripts)
+# Publique também os templates “não-Markdown”
 include:
   - apache/templates/vhost-ssl.conf.tpl
   - services/templates/systemd-service.tpl
   - services/templates/env.tpl
   - services/templates/services.csv.example
 
+# Não enviar pastas de scripts
 exclude:
   - bin
   - sync
