@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # Procedimento: Coleta de Inventário (SO/Serviços/Portas)
 
 Alvo: Debian2-1 (e futuras versões blindadas).

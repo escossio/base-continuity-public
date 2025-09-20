@@ -1,18 +1,31 @@
+---
 title: Base de Continuidade — Público (read-only)
 description: Cópia pública READ-ONLY — procedimentos e templates
 theme: jekyll-theme-cayman
 
-# URLs bonitas: /global/01-checklist/ (sem .html)
+# GitHub Pages de PROJETO (url + baseurl são essenciais p/ links)
+url: "https://escossio.github.io"
+baseurl: "/base-continuity-public"
+
+# URLs bonitas (/caminho/) e sem .html
 permalink: pretty
 
-# Publique também os templates “não-Markdown”
+# Renderizar também arquivos “não-Markdown” usados como templates
 include:
   - apache/templates/vhost-ssl.conf.tpl
   - services/templates/systemd-service.tpl
   - services/templates/env.tpl
   - services/templates/services.csv.example
 
-# Não enviar pastas de scripts
+# Não publicar pastas internas
 exclude:
   - bin
   - sync
+
+# Garante layout default para todas as páginas .md (se alguma não tiver front matter)
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default

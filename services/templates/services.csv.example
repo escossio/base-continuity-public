@@ -1,0 +1,8 @@
+# TEMPLATE OFICIAL — Exemplo de inventário de serviços (CSV)
+# Colunas obrigatórias (nessa ordem):
+# name,port,user,dir,exec,envfile
+# Uma linha por serviço. Sem espaços extras. Sem aspas.
+
+name,port,user,dir,exec,envfile
+hello,8080,www-data,/srv/apps/hello,/srv/apps/hello/bin/server,/srv/apps/hello/.env
+api,9000,api,/srv/apps/api,/srv/apps/api/bin/api-server,/srv/apps/api/.env
