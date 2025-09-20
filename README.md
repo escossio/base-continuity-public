@@ -1,17 +1,40 @@
 ---
 layout: default
+title: Base de Continuidade — Público (read-only)
 ---
 
 # Base de Continuidade — Público (read-only)
 
-Documentação e templates padronizados.  
-**Operações reais** devem seguir estes `.md` no servidor alvo.  
-Este repositório não contém segredos nem estado de produção.
+Cópia pública **READ-ONLY** — procedimentos e templates.  
+Não contém segredos, estado de produção ou `.env` reais.
 
-- `global/` — checklist, convenções, firewall (nftables)  
-- `apache/` — procedimentos e template SSL  
-- `services/` — registro (CSV/systemd/.env)  
-- `ssh/` — deploy de chaves  
-- `inventory/` — coleta/agenda de inventário
+## Como usar em novos chats
+1. Diga: “consulte a Base pública e siga os .md (responder com `nano + caminho` e **ARQUIVO COMPLETO**)”.
+2. Aponte o procedimento pelo caminho abaixo.
 
-Veja também: `manifest.txt` (hash/mtime dos arquivos).
+---
+
+## GLOBAL
+- [01-checklist](global/01-checklist/)
+- [02-conventions](global/02-conventions/)
+- [03-firewall](global/03-firewall/)
+
+## Apache
+- [add-vhost](apache/add-vhost/)
+- [add-vhost-ssl-safe](apache/add-vhost-ssl-safe/)
+- [del-vhost](apache/del-vhost/)
+- Templates:
+  - [vhost-ssl.conf.tpl](apache/templates/vhost-ssl.conf.tpl)
+
+## Services
+- [register-service](services/register-service/)
+- Templates:
+  - [systemd-service.tpl](services/templates/systemd-service.tpl)
+  - [env.tpl](services/templates/env.tpl)
+  - [services.csv.example](services/templates/services.csv.example)
+
+## SSH
+- [key-deploy](ssh/key-deploy/)
+
+## Inventory
+- [coleta](inventory/coleta/)
