@@ -4,5 +4,12 @@ theme: jekyll-theme-cayman
 github:
   is_project_page: false
 
-# URLs sem extensão .html (ex.: /apache/add-vhost/)
+# URLs “bonitas”
 permalink: pretty
+
+# Garante que templates estáticos sejam copiados para o _site
+include:
+  - apache/templates/vhost-ssl.conf.tpl
+  - services/templates/systemd-service.tpl
+  - services/templates/env.tpl
+  - services/templates/services.csv.example
